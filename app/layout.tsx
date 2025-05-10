@@ -41,16 +41,13 @@ export default async function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <SidebarProvider defaultOpen={defaultOpen}>
-
-          <AppSidebar/>
-
+        <SidebarProvider defaultOpen={defaultOpen}>
+        <AppSidebar/>
           <main className="w-full">
             <Navbar />
             <div className="px-4">{children}</div>
           </main>
           </SidebarProvider>
-
         </ThemeProvider>
       </body>
     </html>
