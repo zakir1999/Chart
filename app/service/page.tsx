@@ -7,6 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import Link from "next/link";
 import { Textarea } from "@/components/ui/textarea"
 import {
   Select,
@@ -50,7 +51,7 @@ export default function TabsDemo() {
               </div>
             </CardContent>
             <CardFooter>
-              <Button>Save changes</Button>
+              <Button className="bg-emerald-600 hover:bg-amber-600">Save changes</Button>
             </CardFooter>
           </Card>
         </TabsContent>
@@ -73,7 +74,7 @@ export default function TabsDemo() {
               </div>
             </CardContent>
             <CardFooter>
-              <Button>Save password</Button>
+              <Button className="bg-emerald-600 hover:bg-amber-400">Save password</Button>
             </CardFooter>
           </Card>
         </TabsContent>
@@ -88,7 +89,7 @@ export default function TabsDemo() {
 export const CustomizedCard = () => {
   return (
     <Card>
-      <CardHeader className="items-center flex flex-col justify-center">
+      <CardHeader>
         <CardTitle>Holding Tax</CardTitle>
         <CardDescription>
           Application for holding tax registration and management.
@@ -182,9 +183,11 @@ export const CustomizedCard = () => {
         <Button className="bg-red-400 w-[140px] h-[50px] hover:bg-red-800">
           prev
         </Button>
+        <Link href="/profile">
         <Button className="bg-green-400 w-[140px] h-[50px] hover:bg-emerald-800">
           Next
         </Button>
+        </Link>
       </CardFooter>
     </Card>
   );

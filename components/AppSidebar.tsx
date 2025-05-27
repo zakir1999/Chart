@@ -10,6 +10,7 @@ import {
   Search,
   Settings,
   User2,
+  HeartHandshake
 } from "lucide-react";
 import Link from "next/link";
 
@@ -126,9 +127,9 @@ function AppSidebar() {
               </SidebarMenuItem>
               <SidebarMenuItem>
                 <SidebarMenuButton asChild>
-                  <Link href="/#">
-                    <Plus />
-                    Add Project
+                  <Link href="/service">
+                    <HeartHandshake />
+                    Service
                   </Link>
                 </SidebarMenuButton>
               </SidebarMenuItem>

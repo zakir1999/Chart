@@ -49,6 +49,7 @@ export default async function RootLayout({
           </main>
           </SidebarProvider>
         </ThemeProvider>
+
       </body>
     </html>
   );
