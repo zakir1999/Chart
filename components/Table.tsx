@@ -59,8 +59,8 @@ import {
       <Table>
         <TableCaption>A list of your recent invoices.</TableCaption>
         <TableHeader>
-          <TableRow className="bg-amber-500 rounded-2xl items-center justify-center flex mb-1">
-            <TableHead className="w-[100px]">Invoice</TableHead>
+          <TableRow className="">
+            <TableHead className="w-full">Invoice</TableHead>
             <TableHead >Status</TableHead>
             <TableHead>Method</TableHead>
             <TableHead className="text-right">Amount</TableHead>

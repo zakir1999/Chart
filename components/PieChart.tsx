@@ -19,11 +19,11 @@ import {
   ChartTooltipContent,
 } from "@/components/ui/chart"
 const chartData = [
-  { browser: "chrome", visitors: 275, fill: "var(--color-chrome)" },
-  { browser: "safari", visitors: 200, fill: "var(--color-safari)" },
-  { browser: "firefox", visitors: 287, fill: "var(--color-firefox)" },
-  { browser: "edge", visitors: 173, fill: "var(--color-edge)" },
-  { browser: "other", visitors: 190, fill: "var(--color-other)" },
+  { browser: "chrome", visitors: 275, fill: "green" },
+  { browser: "safari", visitors: 200, fill: "gray" },
+  { browser: "firefox", visitors: 287, fill: "red" },
+  { browser: "edge", visitors: 173, fill: "blue" },
+  { browser: "other", visitors: 190, fill: "cyan" },
 ]
 
 const chartConfig = {
